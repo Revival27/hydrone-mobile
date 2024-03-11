@@ -1,0 +1,6 @@
+
+#need to point to the location of the Android SDK
+sdk.dir=XXXXXX
+
+GOOGLE_MAPS_API_KEY=XXXXXX
+DJI_API_KEY=XXXXXX

@@ -1,0 +1,16 @@
+node_modules
+.bundle
+.vscode
+android
+
+# don't lint config files
+.eslintrc.js
+babel.config.js
+babel.config.js
+index.js
+metro.config.js
+react-native.config.js
+ReactotronConfig.js
+
+Backgrounds.js
+ToastConfig.js

@@ -1,0 +1,7 @@
+{
+  "name": "hydrone",
+  "displayName": "hydrone",
+  "androidStatusBar": {
+    "backgroundColor": "#000000"
+  }
+}

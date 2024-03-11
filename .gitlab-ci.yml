@@ -1,0 +1,24 @@
+stages:
+  - build
+
+before_script:
+  - cd android
+  - touch local.properties
+  - echo sdk.dir=/Users/bin/Library/Android/sdk >> local.properties
+  - echo GOOGLE_MAPS_API_KEY=$GOOGLE_MAPS_API_KEY >> local.properties
+
+build:android:package:
+  stage: build
+  image: reactnativecommunity/react-native-android
+  script:
+    - echo fs.inotify.max_user_watches=524288 | tee -a /etc/sysctl.conf && sysctl -p
+    - npm install
+    - npm run android-build
+    - npm run android-package
+  only:
+    - tags
+  except:
+    - branches
+  artifacts:
+    paths:
+      - ./android/app/build/outputs/

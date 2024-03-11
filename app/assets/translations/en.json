@@ -1,0 +1,361 @@
+{
+  "FAQ": {
+    "title": "FAQ"
+  },
+  "TOS": {
+    "disclosure_of_personal_data": {
+      "body": "Consequat id porta nibh venenatis cras sed. Ipsum nunc aliquet bibendum enim facilisis gravida neque. Nibh tellus molestie nunc non blandit massa. Quam pellentesque nec nam aliquam sem et tortor consequat id. Faucibus vitae aliquet nec ullamcorper sit amet risus. Nunc consequat interdum varius sit amet. Eget magna fermentum iaculis eu non diam phasellus vestibulum. Pulvinar pellentesque habitant morbi tristique senectus et. Lorem donec massa sapien faucibus et molestie. Massa tempor nec feugiat nisl pretium fusce id. Lacinia at quis risus sed vulputate odio. Integer vitae justo eget magna fermentum iaculis. Eget gravida cum sociis natoque penatibus et magnis.",
+      "header": "3. Disclosure of Your Personal Data"
+    },
+    "personal_data": {
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "header": "1. Collection of Personal Data"
+    },
+    "title": "Terms Of Service",
+    "usage_of_data": {
+      "body": "Magna etiam tempor orci eu lobortis elementum nibh. Vulputate enim nulla aliquet porttitor lacus. Orci sagittis eu volutpat odio. Cras semper auctor neque vitae tempus quam pellentesque nec. Non quam lacus suspendisse faucibus interdum posuere lorem ipsum dolor. Commodo elit at imperdiet dui. Nisi vitae suscipit tellus mauris a diam. Erat pellentesque adipiscing commodo elit at imperdiet dui. Mi ipsum faucibus vitae aliquet nec ullamcorper. Pellentesque pulvinar pellentesque habitant morbi tristique senectus et.",
+      "header": "2. Usage of Data"
+    }
+  },
+  "auth": {
+    "forgot_password": {
+      "button": "Send Code",
+      "button_save": "Change Password",
+      "code_sent": "Code has been sent to {{email}}",
+      "cta": "Enter your email address where we can send the password reset code:",
+      "email_sent": "We sent the code to the provided email address.",
+      "header": "Forgot Password",
+      "invalid_email": "Please enter a valid email address",
+      "modal": {
+        "error": "Wrong password reset code."
+      },
+      "resend_code": "Resend code"
+    },
+    "login": {
+      "button_login": "Log In",
+      "email_placeholder": "Email",
+      "forgot_password": "Forgot password?",
+      "header": "Log In",
+      "modal": {
+        "cancel": "Cancel",
+        "logout": "Logout",
+        "title": "Are you sure you want to log out?"
+      },
+      "no_acc": "Don't have an account yet?",
+      "password_placeholder": "Password",
+      "register": "Register"
+    },
+    "password_reset": {
+      "button_next": "Change Password",
+      "header": "Reset Password",
+      "modal": {
+        "description": "You have successfully reset your password.",
+        "title": "Congratulations!"
+      },
+      "password": "New Password",
+      "password_confirm": "Confirm New Password"
+    }
+  },
+  "common": {
+    "app_name": "Hydrone"
+  },
+  "components": {
+    "popup": {
+      "accept": "Accept",
+      "cancel": "Cancel"
+    },
+    "search_bar": {
+      "placeholder": "Search"
+    },
+    "survey": {
+      "pictures": "{{number}} picture{{plural}}",
+      "surveys": "{{number}} measurement{{plural}}",
+      "videos": "{{number}} video{{plural}}"
+    }
+  },
+  "drone_info": {
+    "header": "Info"
+  },
+  "error": {
+    "default": "An unknown error occurred.",
+    "login": {
+      "invalid_credentials": "Invalid credentials, try again.",
+      "login_data_error": "Invalid email or password"
+    },
+    "register": {
+      "email_taken": "Email is already in use."
+    }
+  },
+  "home": {
+    "back_button": "Are you sure you want to log out?",
+    "dashboard": {
+      "header": "{{name}}'s Mavic Air"
+    },
+    "hello": "Hello 👋 ",
+    "no_projects": "You don't have any projects...",
+    "projects": "Projects",
+    "show_all": "Show All"
+  },
+  "landing": {
+    "exit_app": {
+      "body": "Are you sure you want to exit?",
+      "cancel": "Cancel",
+      "confirm": "Exit"
+    }
+  },
+  "profile": {
+    "change_password": {
+      "success": "You have successfully changed your password."
+    },
+    "edit_profile": {
+      "button_change_password": "Change Password",
+      "button_save": "Save",
+      "header": "Edit Profile",
+      "success": "You have successfully edited your profile."
+    }
+  },
+  "project": {
+    "all_projects": {
+      "header": "Projects",
+      "no_projects": "Add a new Project to start measuring",
+      "no_results_description": "We couldn't find what you searched for.",
+      "no_results_title": "No results found",
+      "search_placeholder": "Search projects"
+    },
+    "edit_project": {
+      "add_button": "Add Project",
+      "button_save": "Save",
+      "description": "Description",
+      "header": "Edit project",
+      "no_project": "No available projects",
+      "surveyHeader": "Survey",
+      "title": "Title"
+    },
+    "new_project": {
+      "add_button": "Add Project",
+      "add_success": "You have successfully added a new project.",
+      "description": "Description",
+      "header": "New project",
+      "no_projects": "You don't have any projects...",
+      "title": "Title"
+    },
+    "one_project": {
+      "button_edit": "Edit",
+      "button_new_survey": "New Survey",
+      "description": "Description",
+      "info": "Info",
+      "modal": {
+        "edit_success": "Edited successfully.",
+        "success_delete": "Deleted successfully"
+      },
+      "num_surveys": "No. of Surveys",
+      "popup": {
+        "button_delete": "Delete",
+        "delete_question": "Are you sure you want to delete this project?",
+        "title": "Delete project?"
+      },
+      "surveys": "Surveys"
+    }
+  },
+  "register": {
+    "accept_tos": "I accept the",
+    "already_have_an_acc": "Already have an account?",
+    "button_register": "Register",
+    "email_placeholder": "Email",
+    "header": "Register",
+    "log_in": "Log In",
+    "modal": {
+      "success": "Congratulations",
+      "success_message": "You have successfully created your profile."
+    },
+    "name_placeholder": "Name",
+    "password_confirm_placeholder": "Confirm password",
+    "password_placeholder": "Password",
+    "popupTitle": "Terms of Service",
+    "tos": "Terms of Service"
+  },
+  "settings": {
+    "edit_profile": "Edit Profile",
+    "help": "Help",
+    "log_out": "Logout",
+    "popup": {
+      "button_logout": "Logout",
+      "header": "Logout",
+      "title": "Are you sure you want to log out?"
+    },
+    "tos": "Terms of Service"
+  },
+  "survey": {
+    "all_surveys": {
+      "header": "Surveys",
+      "no_results_description": "We couldn't find what you searched for.",
+      "no_results_title": "No results found",
+      "no_surveys": "Add a new Survey to start measuring",
+      "search_placeholder": "Search surveys"
+    },
+    "edit_survey": {
+      "button_save": "Save",
+      "description": "Description",
+      "header": "Edit survey",
+      "title": "Title"
+    },
+    "new_survey": {
+      "add_button": "Add Survey",
+      "add_success": "You have successfully added a new survey.",
+      "description": "Description",
+      "header": "New survey",
+      "survey_projects": "Projects",
+      "title": "Title"
+    },
+    "one_survey": {
+      "button_continue": "Continue Survey",
+      "button_delete": "Delete",
+      "button_edit": "Edit",
+      "description": "Description",
+      "info": "Info",
+      "measurements": "Measurements",
+      "modal": {
+        "edit_success": "Edited successfully.",
+        "success_delete": "Deleted successfully."
+      },
+      "popup": {
+        "button_delete": "Delete",
+        "description": "Are you sure you want to delete this survey?",
+        "title": "Delete survey?"
+      },
+      "projectsChipHeader": "Projects"
+    }
+  },
+  "survey_measurement": {
+    "add_new_measurement_success": "Successfully added new measurement.",
+    "add_new_measurement_fail": "Couldn't upload new measurement, make sure to fill everything!",
+    "edit_measurement_fail": "Couldn't update measurement, please try again.",
+    "delete_measurement_success": "Successfully deleted the measurement.",
+    "edit_measurement_success": "Successfully edited measurement",
+    "panel": {
+      "drone_settings": "Drone Settings",
+      "show_history": "Show History",
+      "show_map": "Show Map"
+    },
+    "0.5m": "0.5m deep",
+    "1m": "1m deep",
+    "additional_notes": "Additional notes",
+    "bad_population": "Bad number of population",
+    "btn_cancel": "Cancel",
+    "btn_close": "Close",
+    "btn_edit": "Edit",
+    "button_action": "Take Measurement",
+    "camera": "Take Photo",
+    "complete": "Finish Questionnaire",
+    "date_time": "Time",
+    "date_title": "Date",
+    "delete_image": "Delete Image?",
+    "delete_image_confirm": "Are you sure you want to delete this image?",
+    "delete_measurement": "Delete Measurement?",
+    "delete_measurement_confirm": "Are you sure you want to delete this measurement?",
+    "delete_video": "Delete Video?",
+    "delete_video_confirm": "Are you sure you want to delete this video?",
+    "empty_list": {
+      "all": "There are no measurements added to this survey, add one to get started.",
+      "category": "There is no measurement in this category, add a new measurement to get started."
+    },
+    "edit_questionnaire": "Edit Questionnaire",
+    "finish_btn": "Finish",
+    "foliage_density": "How dense is the foilage?",
+    "foliage_title": "Foliage",
+    "gallery": "Choose from Library",
+    "general_quality": "General Quality",
+    "good_population": "Good number of population",
+    "location_title": "Location",
+    "next_btn": "Next",
+    "notes": "Notes",
+    "no_images": "No images to be shown",
+    "photos": "Photos",
+    "pictures": "Pictures",
+    "plantation_necessary": "necessary",
+    "plantation_not_necessary": "not neccesary",
+    "questionaire_results": "Questionaire results",
+    "replantation": "Is replantation necessary?",
+    "replantation_title": "Replantation",
+    "river_bed": "River bed",
+    "river_discharge": "River discharge",
+    "river_discharge_title": "River discharge",
+    "river_measurement": "River measurement",
+    "river_soil": "River soil",
+    "river_wall": "River wall",
+    "river_wall_color": "River wall color",
+    "river_width": "River width",
+    "save_btn": "Save",
+    "show_questionaire": "Show Questionaire",
+    "soil_compact": "Soil compactness",
+    "soil_compactness": "Choose a level of compactness",
+    "soil_compactness_types": {
+      "compact": "Compact",
+      "crumbly": "Crumbly",
+      "extremely_hard": "Extremely Hard",
+      "loose": "Loose",
+      "moderately": "Moderate",
+      "moderately_hard": "Moderately Hard",
+      "slightly": "Slightly"
+    },
+    "soil_composition": "Soil composition",
+    "soil_measurement": "Soil Measurement",
+    "soil_quality": "Soil quality",
+    "soil_type": "Choose a soil type",
+    "soil_type_text": "Soil Type",
+    "soil_types": {
+      "bog_soil": "Bog soil",
+      "brown_forest_soil": "Brown forest soil",
+      "chernozem_soil": "Chernozem soil",
+      "forest_soil": "Forest soil",
+      "frame_soil": "Frame soil",
+      "meadow_soil": "Meadow soil",
+      "saline_soil": "Saline soil"
+    },
+    "start_question": "Start Questionaire",
+    "surface": "Surface",
+    "surface_title": "Surface",
+    "survey_name": "Name",
+    "survey_status": "Questionaire status",
+    "undergrowth_density": "How dense is the undergrowth?",
+    "undergrowth_title": "Undergrowth",
+    "upload": "Upload Photo",
+    "vegetation": "Vegetation",
+    "video": "Video",
+    "no_videos": "No videos to be shown",
+    "video__camera": "Take video",
+    "video__gallery": "Choose from Gallery",
+    "water_flowing": "How fast is the water flowing on the surface level?",
+    "water_level": "What is the current water level?",
+    "water_level_title": "Water level",
+    "water_level_types": {
+      "high": "High",
+      "low": "Low",
+      "medium": "Medium",
+      "normal": "Normal"
+    },
+    "water_width_no": "No",
+    "water_width_yes": "Yes",
+    "width_construction": "Is the width of the river enough for construction?",
+    "wildLife": "How flourishing is the wildlife in the river?",
+    "wildLife_title": "Wildlife"
+  },
+  "toast": {
+    "default_error": "An error has occurred.",
+    "default_success": "Success",
+    "duplicate": "Name is already taken.",
+    "duplicate_email": "Email is already taken",
+    "empty_fields": "Please fill in the mandatory fields.",
+    "success_photo_upload": "Successfully uploaded photo",
+    "success_photo_delete": "Successfully deleted photo",
+    "success_video_upload": "Successfully uploaded video",
+    "success_video_delete": "Successfully deleted video",
+    "error_photo_upload": "Error uploading photo, retrying...",
+    "error_photo_delete": "Error deleting photo",
+    "error_video_upload": "Error uploading video",
+    "error_video_delete": "Error deleting video",
+    "invalid_format": "Invalid {{string}} format, make sure you use a correct format.",
+    "no_change": "Page details has not been changed.",
+    "no_match": "The passwords you entered do not match."
+  }
+}

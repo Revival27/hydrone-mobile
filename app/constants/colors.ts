@@ -1,0 +1,73 @@
+export interface ColorValue {
+  primary_500: string;
+  primary_400: string;
+  primary_300: string;
+  primary_200: string;
+  primary_100: string;
+  secondary_500: string;
+  secondary_400: string;
+  secondary_300: string;
+  secondary_200: string;
+  secondary_100: string;
+  success: string;
+  info: string;
+  warning: string;
+  error: string;
+  disabled: string;
+  disbutton: string;
+  grey_900: string;
+  grey_800: string;
+  grey_700: string;
+  grey_600: string;
+  grey_500: string;
+  grey_400: string;
+  grey_300: string;
+  grey_200: string;
+  grey_100: string;
+  grey_50: string;
+  dark: string;
+  lighterDark: string;
+  lightDark: string;
+  bgGreen: string;
+  bgBlue: string;
+  bgRed: string;
+  bgYellow: string;
+  bgPurple: string;
+}
+
+export const Colors: ColorValue = {
+  primary_500: '#246BFD',
+  primary_400: '#5089FD',
+  primary_300: '#7CA6FE',
+  primary_200: '#A7C4FE',
+  primary_100: '#E9F0FF',
+  secondary_500: '#FFD300',
+  secondary_400: '#FFDC33',
+  secondary_300: '#FFE566',
+  secondary_200: '#FFED99',
+  secondary_100: '#FFFBE6',
+  success: '#4ADE80',
+  info: '#246BFD',
+  warning: '#FACC15',
+  error: '#F75555',
+  disabled: '#D8D8D8',
+  disbutton: '#476EBE',
+  grey_900: '#212121',
+  grey_800: '#424242',
+  grey_700: '#616161',
+  grey_600: '#757575',
+  grey_500: '#9E9E9E',
+  grey_400: '#BDBDBD',
+  grey_300: '#E0E0E0',
+  grey_200: '#EEEEEE',
+  grey_100: '#F5F5F5',
+  grey_50: '#F5F5F5', // too little contrast '#FAFAFA'
+  dark: '#181A20',
+  lighterDark: '#1F222A',
+  lightDark: '#35383F',
+  bgGreen: '#F6FFFA',
+  bgBlue: '#F6FAFD',
+  bgRed: '#FFF5F5',
+  bgYellow: '#FFFEE0',
+  bgPurple: '#FCF4FF',
+};
