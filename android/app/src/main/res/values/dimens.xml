@@ -1,0 +1,4 @@
+<resources>
+    <dimen name="offline_map_header_bar_title_size">20sp</dimen>
+    <dimen name="offline_map_manager_title_size">16sp</dimen>
+</resources>

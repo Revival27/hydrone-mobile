@@ -15,6 +15,7 @@ import { Measurement, MeasurementTypes } from '../data/models/measurements/AddMe
 import { failedMessage, successfulMessage } from '../tools/ToastMessages/Messages';
 import { toggleLoading } from './loadingSlice';
 import { initializeSurveys } from './surveysSlice';
+import { fetchUserInfo } from '../data/api/auth/authService';
 
 interface Init {
   measurements: Measurement[];
@@ -97,7 +98,15 @@ export const add = (data, callback) => {
       return failedMessage(i18next.t('toast.duplicate'));
     }
 
-    addMeasurement(data)
+    const resposne = await fetchUserInfo();
+    const { id } = resposne.data;
+    console.log(id);
+    const payload = {
+      ...data,
+      user_id: id,
+    };
+    console.log(payload);
+    addMeasurement(payload)
       .then(async res => {
         await dispatch(append(res.data));
         successfulMessage(i18next.t('survey_measurement.add_new_measurement_success'));

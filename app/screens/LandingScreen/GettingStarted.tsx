@@ -12,33 +12,6 @@ interface IProps {
   navigation: NavigationProp<ParamListBase>;
 }
 
-const GettingStarted: FC<IProps> = ({ navigation }) => {
-  return (
-    <View style={styles.container}>
-      <GettingStartedDrone style={styles.droneImage} />
-      <Text style={styles.starterText}>
-        A legjobb alkalmazás drónos feltérképezéshez
-      </Text>
-      <Stepper1 style={styles.stepper} />
-      <Text
-        onPress={() => navigation.navigate('GettingStartedSecondScreen')}
-        style={styles.skipText}>
-        Kihagyás
-      </Text>
-      <View style={styles.nextButtonContainer}>
-        <CustomButton
-          text="Tovább"
-          paddings={[18, 16, 18, 16]}
-          size={16}
-          onPress={() => navigation.navigate('GettingStartedSecondScreen')}
-        />
-      </View>
-    </View>
-  );
-};
-
-export default GettingStarted;
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -79,3 +52,21 @@ const styles = StyleSheet.create({
     borderRadius: 100,
   },
 });
+
+const GettingStarted: FC<IProps> = ({ navigation }) => {
+  return (
+    <View style={styles.container}>
+      <GettingStartedDrone style={styles.droneImage} />
+      <Text style={styles.starterText}>A legjobb alkalmazás drónos feltérképezéshez</Text>
+      <Stepper1 style={styles.stepper} />
+      <Text onPress={() => navigation.navigate('GettingStartedSecondScreen')} style={styles.skipText}>
+        Kihagyás
+      </Text>
+      <View style={styles.nextButtonContainer}>
+        <CustomButton text="Tovább" paddings={[18, 16, 18, 16]} size={16} onPress={() => navigation.navigate('GettingStartedSecondScreen')} />
+      </View>
+    </View>
+  );
+};
+
+export default GettingStarted;

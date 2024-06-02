@@ -57,7 +57,7 @@
     }
   },
   "common": {
-    "app_name": "Hydrone"
+    "app_name": "Agridrone"
   },
   "components": {
     "popup": {
@@ -89,7 +89,7 @@
   "home": {
     "back_button": "Are you sure you want to log out?",
     "dashboard": {
-      "header": "{{name}}'s Mavic Air"
+      "header": "{{name}}'s Aircraft"
     },
     "hello": "Hello 👋 ",
     "no_projects": "You don't have any projects...",

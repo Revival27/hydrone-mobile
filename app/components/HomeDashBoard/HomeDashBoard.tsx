@@ -101,7 +101,7 @@ const HomeDashBoard: FC<IProps> = ({ navigation }) => {
         ) : (
           <>
             <Text style={styles.title}>{t('home.dashboard.header', { name: `${profile.name}` })}</Text>
-            <View style={styles.batteryDotContainer}>
+            {/* <View style={styles.batteryDotContainer}>
               {connected ? (
                 <>
                   {fullDots}
@@ -110,13 +110,13 @@ const HomeDashBoard: FC<IProps> = ({ navigation }) => {
               ) : (
                 <Text style={styles.disconnected}>Disconnected</Text>
               )}
-            </View>
+            </View> */}
           </>
         )}
       </View>
       <Image source={droneImage} style={removed ? styles.removedDrone : styles.droneImage} />
       <ControllerBoard>
-        {connected ? (
+        {/* {connected ? (
           <ControllerButton handlePress={() => navigation.navigate('AddNewProjectScreen')} text="Start" icon={<Edit color={Colors.primary_500} set="bold" />} />
         ) : (
           <ControllerButton
@@ -128,7 +128,7 @@ const HomeDashBoard: FC<IProps> = ({ navigation }) => {
             icon={<Bluetooth />}
           />
         )}
-        <ControllerButton handlePress={() => navigation.navigate('DroneInfoScreen')} text="Info" icon={<InfoSquare color={Colors.primary_500} set="bold" />} />
+        <ControllerButton handlePress={() => navigation.navigate('DroneInfoScreen')} text="Info" icon={<InfoSquare color={Colors.primary_500} set="bold" />} /> */}
         <ControllerButton handlePress={() => navigation.navigate('DJIGoScreen')} text="Fly drone" icon={<Play primaryColor={Colors.primary_500} set="bold" />} />
       </ControllerBoard>
     </LinearGradient>

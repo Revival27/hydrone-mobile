@@ -4,7 +4,7 @@ import DeviceInfo from 'react-native-device-info';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { createSlice } from '@reduxjs/toolkit';
 
-import { fetchUserInfo, forgotPassword, login, register, resetPassword } from '../data/api/auth/authService';
+import { fetchUserInfo, forgotPassword, login, logout, register, resetPassword } from '../data/api/auth/authService';
 import { updateUserInfo } from '../data/api/auth/userService';
 import { failedMessage, successfulMessage } from '../tools/ToastMessages/Messages';
 import { connectDrone } from './droneSlice';
@@ -79,7 +79,10 @@ export const getCurrentUser = () => {
         dispatch(loginHandler(profile));
         AsyncStorage.setItem('PROFILE', JSON.stringify(response.data));
       })
-      .catch(err => console.log(err));
+      .catch(err => {
+        console.log(err);
+        logout();
+      });
   };
 };
 
